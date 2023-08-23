@@ -12,6 +12,7 @@ object FormMain: TFormMain
   Constraints.MinWidth = 690
   Menu = MainMenu1
   OnCreate = FormCreate
+  OnShow = FormShow
   OnDestroy = FormDestroy
   OnDropFiles = FormDropFiles
   LCLVersion = '1.3'
